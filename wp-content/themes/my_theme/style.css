@@ -5,6 +5,7 @@ Template: envo-blog
 */
 
 /* WordPress Core */
+
 .gallery-caption {
     font-weight: bold;
 }
@@ -100,15 +101,15 @@ img {
 }
 .sticky,
 .bypostauthor {}
-table { 
-    width: 100%; 
-    border-collapse: collapse; 
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
-th { 
-    font-weight: bold; 
+th {
+    font-weight: bold;
 }
-td, th { 
-    padding: 6px; 
+td, th {
+    padding: 6px;
 }
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
@@ -355,7 +356,7 @@ a:active {
         left: 3px;
     }
     .caret, .dropdown-submenu>a:after {
-        display: none !important; 
+        display: none !important;
     }
     .navbar-nav .dropdown-menu {
         width: 100%;
@@ -480,9 +481,9 @@ a:active {
     color: #fff;
     background-color: #313131;
 }
-#top-navigation .navbar-nav > li > a:hover, 
-#top-navigation .dropdown-menu > li > a:hover, 
-#top-navigation .nav .open > a:hover, 
+#top-navigation .navbar-nav > li > a:hover,
+#top-navigation .dropdown-menu > li > a:hover,
+#top-navigation .nav .open > a:hover,
 #top-navigation .nav .open > a:focus {
     color: #000;
     background-color: #fff;
@@ -617,7 +618,7 @@ h1.site-title a, .site-title a, h1.site-title, .site-title {
     line-height: 70px;
     word-wrap: break-word;
     font-weight: 700;
-    color: #000;
+    color: #fff;
     letter-spacing: -.02em;
     text-transform: uppercase;
 }
@@ -642,13 +643,13 @@ p.site-description {
 }
 .site-heading {
     position: absolute;
-    top: 50%;
-    width: 100%;
+    top: 34%;
+    left: 230px;
+    width: 300px;
     max-width: 1170px;
     text-align: center;
     padding: 15px;
     color: #000;
-    left: 50%;
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
@@ -851,13 +852,13 @@ img.lazy {
 .error-template {
     padding-bottom: 60px;
 }
-.btn-default, input[type="submit"], input#submit, button, a.comment-reply-link { 
+.btn-default, input[type="submit"], input#submit, button, a.comment-reply-link {
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     border: 1px solid #8e8e8e;
 }
-input#submit:hover, .btn-default:hover, input[type="submit"]:hover, button:hover, a.comment-reply-link:hover { 
+input#submit:hover, .btn-default:hover, input[type="submit"]:hover, button:hover, a.comment-reply-link:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
@@ -964,13 +965,13 @@ h1.single-title {
 
 /* Menu social links */
 .navbar a[href*="dribbble.com"], .navbar a[href*="facebook.com"], .navbar a[href*="flickr.com"], .navbar a[href*="foursquare.com"], .navbar a[href*="plus.google.com"], .navbar a[href*="instagram.com"], .navbar a[href*="linkedin.com"], .navbar a[href*="pinterest.com"], .navbar a[href*="reddit.com"], .navbar a[href*="tumblr.com"], .navbar a[href*="twitter.com"], .navbar a[href*="vimeo.com"], .navbar a[href*="wordpress.com"], .navbar a[href*="wordpress.org"], .navbar a[href*="youtube.com"], .navbar a[href*="mailto:"], .navbar a[href*="twitch.tv"], .navbar a[href$="/feed/"] {
-    text-indent: -9999px; 
+    text-indent: -9999px;
 }
 .navbar a[href*="dribbble.com"]:after, .navbar a[href*="facebook.com"]:after, .navbar a[href*="flickr.com"]:after, .navbar a[href*="foursquare.com"]:after, .navbar a[href*="plus.google.com"]:after, .navbar a[href*="instagram.com"]:after, .navbar a[href*="linkedin.com"]:after, .navbar a[href*="pinterest.com"]:after, .navbar a[href*="reddit.com"]:after, .navbar a[href*="tumblr.com"]:after, .navbar a[href*="twitter.com"]:after, .navbar a[href*="vimeo.com"]:after, .navbar a[href*="wordpress.com"]:after, .navbar a[href*="wordpress.org"]:after, .navbar a[href*="youtube.com"]:after, .navbar a[href*="mailto:"]:after, .navbar a[href*="twitch.tv"]:after, .navbar a[href$="/feed/"]:after {
     font-family: "FontAwesome";
     text-indent: 0;
     display: block;
-    float: left; 
+    float: left;
 }
 .navbar a[href$="/feed/"]:after {
     content: "\f09e";
@@ -1016,11 +1017,11 @@ h1.single-title {
 }
 .navbar a[href*="flickr.com"]:after {
     content: "\f16e";
-    color: #ff0084; 
+    color: #ff0084;
 }
 .navbar a[href*="foursquare.com"]:after {
     content: "\f180";
-    color: #0072b1; 
+    color: #0072b1;
 }
 .navbar a[href*="plus.google.com"]:after {
     content: "\f0d5";
@@ -1028,15 +1029,15 @@ h1.single-title {
 }
 .navbar a[href*="instagram.com"]:after {
     content: "\f16d";
-    color: #517fa4; 
+    color: #517fa4;
 }
 .navbar a[href*="linkedin.com"]:after {
     content: "\f0e1";
-    color: #007bb6; 
+    color: #007bb6;
 }
 .navbar a[href*="pinterest.com"]:after {
     content: "\f231";
-    color: #cb2027; 
+    color: #cb2027;
 }
 
 /* Split images news */
@@ -1044,7 +1045,7 @@ h1.single-title {
     width: 100%;
     position: relative;
 }
-.inner-wrapper.split-images, 
+.inner-wrapper.split-images,
 .split-box.news-item-1,
 .split-slider {
     overflow: hidden;
